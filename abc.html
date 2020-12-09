@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="student.php" method="post" name="Registration">
+		<table cellpadding="3" cellspacing="3" align="center" width="100%" hight="400%" bgcolor="gray">
+		<tr>
+	
+				<td>first Name: </td>
+				   <td><input type="text" name="firstname" id="firstname" size="15" autofocus></td>
+				<td>middle Name: </td>
+				   <td><input type="text" name="middlename" id="middlename" size="15"></td>
+				<td>last Name: </td>
+				   <td><input type="text" name="lastname" id="lastname" size="15" >
+				   </td>
+				</tr>
+				<tr>
+					 <td>Address:</td>
+					 <td><textarea name="Address" id="Address" rows="4" cols="20"></textarea></td>
+				</tr>
+				<tr>
+				<td>Gender: </td>
+				<td><input type="radio" name="Gender" value="Male" size="10">Male
+					<input type="radio" name="Gender" value="Female" size="10">Female</td>
+				</tr>
+				<tr>
+					<td>City: </td>
+					<td><select name="City">
+						<option value="-1" selected>select..</option>
+						<option value="Pune">Pune</option>
+						<option value="Mumbai">Mumbai</option>
+						<option value="Latur">Latur</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>Language Know</td>
+					<td><input type="checkbox" name="language" value="java">JAVA
+					    <input type="checkbox" name="language" value="C">C
+					     <input type="checkbox" name="language" value="C++">C++
+					      <input type="checkbox" name="language" value="PHP">PHP
+					  </td>
+					</tr>
+					<td>Email ID: </td>
+					 <td><input type="email" name="email" id="email" size="25"> 
+					 	<!--onsubmit="return(validateemail());">-->
+					 </td>
+					</tr>
+					<tr>
+						<td><input type="reset" name="reset"></td>
+						<td colspan="2"><input type="submit" name="submit" value="submit form"></td>
+					</tr>
+				
+</table>
+</body>
+</html>
+
+</body>
+</html>
